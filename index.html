@@ -6,16 +6,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Hotel Simulator</title>
     <style>
+        
         body {
-            background-color: #f8f9fa;
+            background-color: #505050;
             font-family: Arial, sans-serif;
-            border: #0056b3 solid 5px;
+            border: #156bcd solid 5px;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
             max-width: 600px;
             text-align: center;
+            color: #ffffff;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background-color 0.3s;
         }
         .container {
             margin-top: 50px;
@@ -26,7 +31,7 @@
         }
         .guest-card {
             margin-bottom: 20px;
-            border: 1px solid #007bff;
+            border: 1px solid #003cff;
             border-radius: 0.25rem;
             background-color: #ffffff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -35,18 +40,18 @@
         .card-title {
             font-size: 1.5em;
             font-weight: bold;
-            color: #007bff;
+            color: #00ff6e;
         }
         .card-text {
             font-size: 1.2em;
-            color: #ffffff;
+            color: #ffffff38;
         }
         .btn-primary {
-            background-color: #007bff;
+            background-color: #00ff6a;
             border: none;
         }
         .btn-primary:hover {
-            background-color: #0056b3;
+            background-color: #00b333;
         }
         .form-control {
             border-radius: 0.25rem;
@@ -56,13 +61,28 @@
         }
         .text-center {
             margin-bottom: 2rem;
+            font-size: 2em;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #007bff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
         }
         .card {
             border: 1px solid #007bff;
             border-radius: 0.25rem;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
         }
         .card-body {
             padding: 1.5rem;
+            background-color: #f8f9fa;
+            border-radius: 0.25rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
         }
         .card-header {
             background-color: #007bff;
